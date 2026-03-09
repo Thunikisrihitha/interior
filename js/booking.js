@@ -1,7 +1,7 @@
-document.getElementById("bookingForm").addEventListener("submit", function(e){
+document.getElementById("bookingForm").addEventListener("submit",function(e){
 
-e.preventDefault();
+e.preventDefault()
 
-alert("Booking submitted successfully!");
+alert("Thank you! Your booking request has been received.")
 
-});
+})
