@@ -1,43 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>Elegant Interiors Studio</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luxury Interior Studio</title>
+
 <link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
-<h1>Elegant Interiors Studio</h1>
+
+<h2 class="logo">Elegant Interiors</h2>
+
 <nav>
-<a href="index.html">Home</a>
-<a href="about.html">Partners</a>
-<a href="services.html">Services</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="booking.html">Book Consultation</a>
-<a href="contact.html">Contact</a>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#booking">Book</a>
+<a href="#contact">Contact</a>
 </nav>
+
 </header>
 
+
 <section class="hero">
-<h2>Transforming Spaces Into Beautiful Experiences</h2>
-<p>Residential | Commercial | Luxury Interiors</p>
-<a href="booking.html" class="btn">Book Consultation</a>
+
+<div class="hero-text">
+
+<h1>Luxury Interior Design Studio</h1>
+
+<p>Transforming spaces into beautiful experiences</p>
+
+<a href="#booking" class="btn">Book Consultation</a>
+
+</div>
+
 </section>
 
-<section>
-<h2>Why Choose Us</h2>
-<ul>
-<li>Creative Designs</li>
-<li>Affordable Pricing</li>
-<li>Professional Team</li>
-<li>100+ Happy Clients</li>
-</ul>
+
+<section class="services" id="services">
+
+<h2>Our Services</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<h3>Home Interiors</h3>
+<p>Luxury living rooms, bedrooms and kitchen designs.</p>
+</div>
+
+<div class="card">
+<h3>Office Design</h3>
+<p>Modern workspace design for productivity.</p>
+</div>
+
+<div class="card">
+<h3>3D Visualization</h3>
+<p>Preview your dream interior before execution.</p>
+</div>
+
+</div>
+
 </section>
+
+
+<section class="portfolio" id="portfolio">
+
+<h2>Our Projects</h2>
+
+<div class="gallery">
+
+<img src="images/project1.jpg">
+
+<img src="images/project2.jpg">
+
+<img src="images/project3.jpg">
+
+</div>
+
+</section>
+
+
+<section class="booking" id="booking">
+
+<h2>Book a Consultation</h2>
+
+<form id="bookingForm">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="date" required>
+
+<select>
+
+<option>Home Interior</option>
+<option>Office Interior</option>
+<option>Renovation</option>
+
+</select>
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+</section>
+
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<p>📍 Visakhapatnam, India</p>
+
+<p>📞 +91 XXXXX XXXXX</p>
+
+<p>📧 studio@email.com</p>
+
+</section>
+
+
+<a href="https://wa.me/91XXXXXXXXXX" class="whatsapp">Chat</a>
+
 
 <footer>
+
 <p>© 2026 Elegant Interiors Studio</p>
+
 </footer>
 
+<script src="js/script.js"></script>
+
 </body>
+
 </html>
